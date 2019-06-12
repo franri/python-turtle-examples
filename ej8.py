@@ -9,7 +9,7 @@ def main():
 
     negro = turtle.Turtle()
 
-    negro.penup() ##para que no dibuje cuando me muevo a (-40, 0)
+    negro.penup() # para que no dibuje cuando me muevo a (-40, 0)
     negro.setpos(0, -100)
 
     negro.shape("turtle")
@@ -21,7 +21,7 @@ def main():
         if i == 1:
             dibujarPunta(negro, largo)
         else:
-            ## pasos se relaciona con la cantidad de cuadrados que te quedan por hacer, ni idea porqué
+            # pasos se relaciona con la cantidad de cuadrados que te quedan por hacer, ni idea porqué
             pasos = (i-1)*2-1
 
             irIzq(negro, pasos, largoDePaso)
